@@ -1,0 +1,109 @@
+html,body {
+  background-image: url(/src/assets/loyalitet_babyfest_invitation-blomsterbuket_youtube_1.jpg.jpg);
+  /* background-size: cover; */
+  font-family: "roboto",'Balthazar', serif;
+
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title__flowerTitle{
+    font-family: "roboto",'Balthazar', serif;
+  font-size: 50px;
+  font-weight:400px;
+  color: #A7727D;
+  background-color: #F8EAD8;;
+
+  text-decoration-color: #A7727D;
+
+}
+.form {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+ .form__name {
+font-size: 20px;
+font-family: "roboto",'Balthazar', serif;
+background-color:#F8EAD8;
+
+ }
+
+ .form__desc {
+  font-size: 20px;
+  font-family: "roboto",'Balthazar', serif;
+  background-color:#F8EAD8;
+ }
+
+ .form__colour{
+  font-size: 20px;
+  font-family: "roboto",'Balthazar', serif;
+  background-color:#F8EAD8;
+ }
+
+ .submitBtn{
+  font-size: 20px;
+  font-family: "roboto",'Balthazar', serif;
+  background-color: #A7727D;
+ }
+ .btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+
+ .buttonStyle {
+  padding: 20px;
+ font-size: 15px;
+ border-radius: 10px;
+ background-color: #A7727D;
+ font-family: "roboto",'Balthazar', serif;
+ }
+
+  .flowerMain {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  .flower{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+.flowerContainer {
+  background-color:#F8EAD8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: black solid 4px; 
+  margin: 10px;
+  padding: 10px;
+
+}
+
+.flower__button{
+  font-size: 20px;
+  font-family: "roboto",'Balthazar', serif;
+  background-color: #A7727D;
+  border-radius: 40px;
+  padding: 10px;
+}
+
+

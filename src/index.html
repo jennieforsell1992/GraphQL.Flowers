@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balthazar&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="/src/js/flower.js" type="module"></script>
+    <link rel="stylesheet" href="/src/css/main.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1 class="title__flowerTitle">Dina blommor!</h1>
+    </div>
+
+    <form action="" id="formFlowers" class="form">
+      <input
+        type="text"
+        id="inputName"
+        placeholder="Blomma"
+        class="form__name"
+      />
+      <input
+        type="text"
+        id="inputDesc"
+        placeholder="Beskrivning"
+        class="form__desc"
+      />
+      <input
+        type="text"
+        id="inputColour"
+        placeholder="Färg"
+        class="form__colour"
+      />
+      <button id="submitButton" class="submitBtn">lägg till ny blomma!</button>
+    </form>
+    <div class="btnContainer">
+      <button id="getFlowers" class="buttonStyle">Hämta blommor</button>
+    </div>
+
+    <main id="flowerMain" class="flowerMain"></main>
+  </body>
+</html>

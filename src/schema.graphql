@@ -1,0 +1,28 @@
+type Flower {
+  id: ID!
+  name: String
+  description: String
+  colour: String
+}
+
+type DeletedResourceResponse {
+  deletedId: ID
+  success: Boolean
+}
+
+type Query {
+  getAllFlowers: [Flower]
+}
+
+type Mutation {
+  createFlower(input: CreateFlowerInput): Flower
+  deleteFlower(flowerId: ID!): DeletedResourceResponse
+}
+
+input CreateFlowerInput {
+  id: ID
+  name: String
+  description: String
+  colour: String
+  projectId: ID
+}
